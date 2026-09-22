@@ -10,3 +10,8 @@ export const errorHandler = (err: unknown, _req: Request, res: Response, _next: 
   const message = err instanceof Error ? err.message : 'An unexpected error occurred';
   res.status(status).json({ error: { code, message } });
 };
+
+// export const middleware = (req: Request, res: Response, next: NextFunction) => {
+//   console.log(req);
+//   next();
+// }
