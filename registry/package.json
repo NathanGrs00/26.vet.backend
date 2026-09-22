@@ -42,5 +42,9 @@
   "overrides": {
     "deepmerge-ts": "^8.0.2",
     "mysql2": "^3.24.4"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true,
+    "better-sqlite3@12.11.1": true
   }
 }
